@@ -1,0 +1,48 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+color: black;
+
+}
+
+.cart{
+    display: flex;
+    font-size: 10px;
+    border: 1px black solid;
+}
+
+.cart>h2{
+    margin: auto;
+    text-align: center;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+@media (min-width: 375px) and (max-width: 600px){
+    .list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        border: 1px black solid;
+    }
+    .cart{
+    text-align: center;
+    margin-left: 5px;
+    }
+    .cart>h2{
+        margin: auto;
+        text-align: center;
+    }
+  }
